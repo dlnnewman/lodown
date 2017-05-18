@@ -1,0 +1,29 @@
+{
+  "name": "lodown-dlnnewman",
+  "version": "1.0.0",
+  "description": "A functional library of code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlnnewman/lodown.git"
+  },
+  "author": "dlnnewman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlnnewman/lodown/issues"
+  },
+  "homepage": "https://github.com/dlnnewman/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "sinon": "^2.2.0"
+  }
+}
